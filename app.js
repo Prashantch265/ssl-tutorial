@@ -51,7 +51,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req, res) => {
     // Use res.sendFile to send the HTML file.
     // __dirname is the current directory of the script.
-    res.sendFile(path.join(__dirname, 'ssl_explanation.html'));
+    res.sendFile(path.join(__dirname, 'public/ssl_explanation.html'));
 });
 
 // A basic route for testing (still returns JSON, but primarily for demonstration of HTTPS)
