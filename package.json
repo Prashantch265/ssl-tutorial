@@ -1,0 +1,29 @@
+{
+  "name": "ssl-demonstration",
+  "version": "1.0.0",
+  "description": "a simple Express.js application designed to demonstrate how to set up and run a basic HTTPS server using Node.js and self-signed SSL/TLS certificates",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prashantch265/ssl-tutorial.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "SSL",
+    "TLS",
+    "openssl"
+  ],
+  "author": "Prashant Chaudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prashantch265/ssl-tutorial/issues"
+  },
+  "homepage": "https://github.com/Prashantch265/ssl-tutorial#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
