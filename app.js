@@ -41,6 +41,10 @@ const httpsOptions = {
     cert: certificate
 };
 
+// --- Express Middlewares ---
+// Serve static files
+app.use(express.static(path.join(__dirname, 'public')));
+
 // --- Express Routes ---
 
 // A simple GET route for the root path that now serves the external HTML document
